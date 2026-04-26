@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Guia Tercer Parcial">
+        <meta name="copyright" content="KingET">
+        <meta name="author" content="Cristian Lopez Vazquez">
+        <link rel="stylesheet" href="../CSS/styleuno.css">
+        <title>Página Principal</title>
+    </head>
+    <body>
+        <!-- Menú -->
+        <nav class="menu">
+            <div class="titulop">Guia</div>
+            <ul>
+                <li> <a href="../index.html">Inicio</a> </li>
+                <li> <a href="./parcial1.html">Parcial1</a> </li>
+                <li> <a href="./parcial2.html">Parcial2</a> </li>
+                <li> <a href="./parcial3.html">Parcial3</a> </li>
+            </ul>
+        </nav>
+        <!-- Preguntas Primer Parcial -->
+        <section class="etiquetas-fondo">
+            <div class="etiquetas-container">
+                <h1>Primera Sección</h1>
+                <h2>Preguntas del Primer Parcial</h2>
+                <hr class="LineaA"> <br>
+
+                <h3>1. ¿Qué es un sistema operativo móvil?</h3>
+                <p>Es el software que administra los recursos del dispositivo
+                    móvil y permite ejecutar
+                    aplicaciones.</p>
+                <p><strong>Justificación:</strong> El sistema operativo es el
+                    núcleo del dispositivo,
+                    ya que controla el hardware (memoria, procesador, sensores)
+                    y permite que las
+                    aplicaciones funcionen correctamente. Además, proporciona la
+                    interfaz con la que
+                    el usuario interactúa.</p> <br>
+
+                <h3>2. Describe las cinco etapas del desarrollo móvil</h3> <br>
+                <ul>
+                    <li>
+                        <strong class="result">Análisis:</strong> Identificación
+                        de necesidades y requisitos.
+                        En esta fase se define el problema a resolver; si falla,
+                        el desarrollo será incorrecto.
+                    </li>
+                    <li>
+                        <strong class="result">Diseño:</strong> Creación de la
+                        estructura e interfaz. Se decide
+                        la estética y funcionalidad para mejorar la experiencia
+                        del usuario (UX).
+                    </li>
+                    <li>
+                        <strong class="result">Desarrollo:</strong> Programación
+                        de la aplicación. Construcción
+                        técnica donde se implementan todas las funciones
+                        definidas.
+                    </li>
+                    <li>
+                        <strong class="result">Pruebas:</strong> Detección y
+                        corrección de errores. Asegura el
+                        funcionamiento correcto antes de que la app llegue al
+                        usuario final.
+                    </li>
+                    <li>
+                        <strong class="result">Mantenimiento:</strong>
+                        Actualización y mejora continua. Adaptación a
+                        cambios tecnológicos y corrección de errores tras el
+                        lanzamiento.
+                    </li>
+                </ul> <br>
+
+                <h3>3. Escribe la descripción, ventajas y desventajas de los
+                    siguientes
+                    tipos de aplicación móvil</h3>
+
+                <div class="table-responsive">
+                    <table class="tabla-apps">
+                        <thead>
+                            <tr>
+                                <th>Tipo</th>
+                                <th>Descripción</th>
+                                <th>Ventajas</th>
+                                <th>Desventajas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-nombre"
+                                    data-label="Tipo">Web</td>
+                                <td data-label="Descripción">Ejecutadas en
+                                    navegador (URL). No requieren
+                                    instalación.</td>
+                                <td data-label="Ventajas">
+                                    <ul>
+                                        <li>Sin instalación.</li>
+                                        <li>Multiplataforma.</li>
+                                    </ul>
+                                </td>
+                                <td data-label="Desventajas">
+                                    <ul>
+                                        <li>Dependen de internet.</li>
+                                        <li>Menor rendimiento.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-nombre"
+                                    data-label="Tipo">Híbridas</td>
+                                <td data-label="Descripción">Tecnologías web en
+                                    contenedor nativo. Se instalan.</td>
+                                <td data-label="Ventajas">
+                                    <ul>
+                                        <li>Un solo código base.</li>
+                                        <li>Acceso parcial hardware.</li>
+                                    </ul>
+                                </td>
+                                <td data-label="Desventajas">
+                                    <ul>
+                                        <li>Rendimiento moderado.</li>
+                                        <li>Dependencia de frameworks.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-nombre"
+                                    data-label="Tipo">Nativas</td>
+                                <td data-label="Descripción">Desarrolladas para
+                                    un SO específico (Kotlin/Swift).</td>
+                                <td data-label="Ventajas">
+                                    <ul>
+                                        <li>Máximo rendimiento.</li>
+                                        <li>Acceso total hardware.</li>
+                                    </ul>
+                                </td>
+                                <td data-label="Desventajas">
+                                    <ul>
+                                        <li>Alto costo.</li>
+                                        <li>Desarrollo por separado.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> <br>
+
+                <h3>4. Un desarrollador fue contratado para crear una app que
+                    sea rápida, estable y
+                    optimizada para dispositivos con diferentes sistemas
+                    operativos. Sin embargo, su
+                    cliente tiene un presupuesto limitado. ¿Cuáles serían dos
+                    desventajas de optar por
+                    una aplicación nativa?</h3> <br>
+                <ul class="lista-limpia">
+                    <li>
+                        <span class="resaltado-amarillo"><strong>a)</strong> Se
+                            necesita un grupo de desarrollo para cada
+                            plataforma.</span>
+                    </li>
+                    <li>
+                        <strong>b)</strong> El acceso a las características de
+                        hardware es limitado.
+                    </li>
+                    <li>
+                        <strong>c)</strong> Las actualizaciones son difíciles de
+                        implementar.
+                    </li>
+                    <li>
+                        <span class="resaltado-amarillo"><strong>d)</strong> El
+                            proceso de desarrollo es lento y costoso.</span>
+                    </li>
+                </ul>
+                <p><strong>Justificación:</strong> Requieren versiones separadas
+                    para cada sistema, lo que demanda más recursos humanos y
+                    tiempo de programación.</p> <br>
+
+                <h3>5. ¿Qué modelo de diseño se basa en los resultados de
+                    pruebas de usabilidad?</h3> <br>
+                <ul class="lista-limpia">
+                    <li>
+                        <strong>a)</strong> Modelo de programador.
+                    </li>
+                    <li>
+                        <span class="resaltado-amarillo"><strong>b)</strong>
+                            Modelo de usuario.</span>
+                    </li>
+                    <li>
+                        <strong>c)</strong> Modelo de diseño.
+                    </li>
+                    <li>
+                        <strong>d)</strong> Modelo de sistemas.
+                    </li>
+                </ul>
+                <p><strong>Justificación:</strong> Se centra en el
+                    comportamiento y necesidades del usuario final para mejorar
+                    la interacción.</p> <br>
+
+                <h3>6. Analiza cada enunciado y clasifícalo marcando con “F” si
+                    corresponde a un
+                    requisito funcional o con “NF” si corresponde a un requisito
+                    no funcional.</h3> <br>
+                <ul class="lista-limpia">
+                    <li>
+                        (F) La aplicación debe permitir a los usuarios registrar
+                        una nueva cuenta mediante correo electrónico.
+                    </li>
+                    <li>
+                        (F) La aplicación debe enviar una notificación por
+                        correo cada vez que se realice una compra.
+                    </li>
+                    <li>
+                        (F) Los usuarios deben poder restablecer su contraseña
+                        usando un enlace de recuperación.
+                    </li>
+                    <li>
+                        (F) La aplicación debe permitir buscar productos por
+                        nombre, categoría o precio.
+                    </li>
+                    <li>
+                        (NF) La aplicación debe poder ejecutarse sin problemas
+                        en
+                        diferentes sistemas operativos móviles.
+                    </li>
+                </ul>
+                <p>Los funcionales dicen "qué hace" y los no funcionales
+                    "cómo se comporta".</p> <br>
+
+                <h3>7. Un equipo de desarrollo crea una aplicación con un nuevo
+                    sistema de compresión de datos móviles.
+                    ¿Qué mecanismo legal debe utilizar para evitar que otros
+                    desarrolladores lo copien sin autorización?</h3> <br>
+                <ul class="lista-limpia">
+                    <li>
+                        <span class="resaltado-amarillo"><strong>a)</strong>
+                            Patente.</span>
+                    </li>
+                    <li>
+                        <strong>b)</strong> Licencia adware.
+                    </li>
+                    <li>
+                        <strong>c)</strong> Derechos de distribución.
+                    </li>
+                    <li>
+                        <strong>d)</strong> Registro en Derechos de software.
+                    </li>
+                </ul>
+                <p><strong>Justificación:</strong> Protege una invención
+                    tecnológica evitando que terceros la usen sin
+                    autorización.</p> <br>
+
+                <h3>8. ¿Cuál es el propósito del análisis de requerimientos en
+                    un proyecto de software?</h3> <br>
+                <ul class="lista-limpia">
+                    <li>
+                        <strong>a)</strong> Comprender la lógica del negocio.
+                    </li>
+                    <li>
+                        <strong>b)</strong> Identificar las funciones del
+                        hardware.
+                    </li>
+                    <li>
+                        <span class="resaltado-amarillo"><strong>c)</strong>
+                            Comprender las necesidades del cliente.</span>
+                    </li>
+                    <li>
+                        <strong>d)</strong> Definir los lenguajes de
+                        programación.
+                    </li>
+                </ul>
+                <p><strong>Justificación:</strong> Evita que el producto final
+                    no cumpla con las expectativas del mercado.</p> <br>
+
+                <h3>9. Si deseas representar gráficamente la distribución de
+                    botones,
+                    menús y contenido dentro de la pantalla de una aplicación,
+                    ¿qué herramienta debes utilizar?</h3>
+                <ul class="lista-limpia">
+                    <li>
+                        <strong>a)</strong> Diagrama de flujo de imágenes.
+                    </li>
+                    <li>
+                        <strong>b)</strong> Hojas de estilo.
+                    </li>
+                    <li>
+                        <span class="resaltado-amarillo"><strong>c)</strong>
+                            Planos de pantalla.</span>
+                    </li>
+                    <li>
+                        <strong>d)</strong> Prototipo funcional.
+                    </li>
+                </ul>
+                <p><strong>Justificación:</strong> Permiten visualizar la
+                    distribución de elementos antes de escribir una sola línea
+                    de código.</p> <br>
+
+                <h3>10. ¿Qué incluye un framework de desarrollo back-end?</h3>
+                <p><strong>Respuesta:</strong> Incluye base de datos, servidor,
+                    APIs y autenticación. Es el motor encargado de procesar la
+                    lógica
+                    y comunicar la app con el exterior.</p> <br>
+
+                <h3>11. Si un equipo de desarrollo quiere mejorar la gestión de
+                    recursos
+                    en su app, ¿Qué es lo primero que deben analizar?</h3> <br>
+                <ul class="lista-limpia">
+                    <li>
+                        <strong>a)</strong> Las transiciones entre estados y
+                        eventos.
+                    </li>
+                    <li>
+                        <strong>b)</strong> El tamaño de las imágenes cargadas.
+                    </li>
+                    <li>
+                        <strong>c)</strong> La cantidad de rutas y vistas
+                        utilizadas.
+                    </li>
+                    <li>
+                        <span class="resaltado-amarillo"><strong>d)</strong> El
+                            back-end y front-end de la app.</span>
+                    </li>
+                </ul>
+                <p><strong>Justificación:</strong> El rendimiento es integral;
+                    depende tanto de la interfaz como del procesamiento de
+                    datos.</p> <br>
+
+                <h3>12. Selecciona dos ventajas de combinar los modelos de
+                    almacenamiento
+                    "en la nube" y "memoria interna".</h3> <br>
+                <ul class="lista-limpia">
+                    <li>
+                        <span class="resaltado-amarillo"><strong>a)</strong>
+                            Acceso a los datos sin conexión.</span>
+                    </li>
+                    <li>
+                        <strong>b)</strong> Aumento de la memoria interna.
+                    </li>
+                    <li>
+                        <span class="resaltado-amarillo"><strong>c)</strong>
+                            Sincronización de los datos.</span>
+                    </li>
+                    <li>
+                        <strong>d)</strong> Confidencialidad de los datos.
+                    </li>
+                </ul>
+                <p><strong>Justificación:</strong> La memoria interna da
+                    autonomía y la nube permite la ubicuidad de los datos.</p>
+            </div>
+        </section>
+    </body>
+</html>
